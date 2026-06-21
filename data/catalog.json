@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 860,
+  "total": 861,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -21078,6 +21078,30 @@
         "work"
       ],
       "path": "skills/xlsx-official/SKILL.md"
+    },
+    {
+      "id": "xquik-social-data-workflows",
+      "name": "xquik-social-data-workflows",
+      "description": "Use Xquik REST or MCP to retrieve, monitor, and export public X data for agent workflows.",
+      "category": "data-ai",
+      "tags": [
+        "xquik",
+        "social",
+        "data"
+      ],
+      "triggers": [
+        "xquik",
+        "social",
+        "data",
+        "rest",
+        "mcp",
+        "retrieve",
+        "monitor",
+        "export",
+        "public",
+        "agent"
+      ],
+      "path": "skills/xquik-social-data-workflows/SKILL.md"
     },
     {
       "id": "xss-html-injection",
