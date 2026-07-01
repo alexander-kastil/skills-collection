@@ -7677,6 +7677,15 @@
     "source": "unknown"
   },
   {
+    "id": "xquik-social-data-workflows",
+    "path": "skills/xquik-social-data-workflows",
+    "category": "uncategorized",
+    "name": "xquik-social-data-workflows",
+    "description": "Use Xquik REST or MCP to retrieve, monitor, and export public X data for agent workflows.",
+    "risk": "safe",
+    "source": "https://github.com/Xquik-dev/x-twitter-scraper"
+  },
+  {
     "id": "youtube-automation",
     "path": "skills/youtube-automation",
     "category": "uncategorized",
