@@ -9,11 +9,12 @@ import subprocess
 import tempfile
 from pathlib import Path
 from collections import defaultdict
+from typing import Optional
 
 MS_REPO = "https://github.com/microsoft/skills.git"
 
 
-def extract_skill_name(skill_md_path: Path) -> str | None:
+def extract_skill_name(skill_md_path: Path) -> Optional[str]:
     """Extract the 'name' field from SKILL.md YAML frontmatter."""
     try:
         content = skill_md_path.read_text(encoding="utf-8")
