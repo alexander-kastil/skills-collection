@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 860
+Total skills: 861
 
 ## architecture (64)
 
@@ -116,7 +116,7 @@ Total skills: 860
 | `team-composition-analysis` | This skill should be used when the user asks to "plan team structure", "determine hiring needs", "design org chart", "calculate compensation", "plan equity a... | team, composition | team, composition, analysis, skill, should, used, user, asks, plan, structure, determine, hiring |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (159)
+## data-ai (160)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -298,6 +298,7 @@ Use when creating container-based agents that run custom code in Azure ... | hos
 | `voice-ai-engine-development` | Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt handling ... | voice, ai, engine | voice, ai, engine, development, real, time, conversational, engines, async, worker, pipelines, streaming |
 | `web-artifacts-builder` | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use ... | web, artifacts, builder | web, artifacts, builder, suite, creating, elaborate, multi, component, claude, ai, html, frontend |
 | `xlsx-official` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx, official | xlsx, official, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work |
+| `xquik-social-data-workflows` | Use Xquik REST or MCP to retrieve and inspect public X data for agent workflows. | xquik, social, data | xquik, social, data, rest, mcp, retrieve, inspect, public, agent |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
 ## development (129)

@@ -11,6 +11,7 @@ import subprocess
 import tempfile
 import json
 from pathlib import Path
+from typing import Optional
 
 MS_REPO = "https://github.com/microsoft/skills.git"
 REPO_ROOT = Path(__file__).parent.parent
@@ -31,7 +32,7 @@ def clone_repo(temp_dir: Path):
 def cleanup_previous_sync():
     """Remove skill directories from a previous sync using the attribution manifest."""
     if not ATTRIBUTION_FILE.exists():
-        print("  ℹ️  No previous attribution file found — skipping cleanup.")
+        print("  ℹ️  No previous attribution file found - skipping cleanup.")
         return 0
 
     try:
@@ -59,7 +60,7 @@ def cleanup_previous_sync():
     return removed_count
 
 
-def extract_skill_name(skill_md_path: Path) -> str | None:
+def extract_skill_name(skill_md_path: Path) -> Optional[str]:
     """Extract the 'name' field from SKILL.md YAML frontmatter."""
     try:
         content = skill_md_path.read_text(encoding="utf-8")

@@ -8,11 +8,12 @@ import re
 import subprocess
 import tempfile
 from pathlib import Path
+from typing import Optional
 
 MS_REPO = "https://github.com/microsoft/skills.git"
 
 
-def extract_skill_name(skill_md_path: Path) -> str | None:
+def extract_skill_name(skill_md_path: Path) -> Optional[str]:
     """Extract the 'name' field from SKILL.md YAML frontmatter."""
     try:
         content = skill_md_path.read_text(encoding="utf-8")
@@ -84,7 +85,7 @@ def inspect_repo():
                     print(f"    - {p}")
         else:
             print(
-                f"\n4️⃣ ✅ No name collisions — all {len(names_seen)} names are unique!")
+                f"\n4️⃣ ✅ No name collisions - all {len(names_seen)} names are unique!")
 
         print("\n✨ Inspection complete!")
 
